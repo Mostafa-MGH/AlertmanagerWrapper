@@ -15,7 +15,7 @@ Install Golang
  seconds:
 - $ mv paw.service /lib/systemd/system/
 - $ nano paw.service # add location binery file createded
-
+- $ systemctl restart paw.service
 //////// alertmanager config to send alerts to /SendAlert of wrapper
 
 ```bash
