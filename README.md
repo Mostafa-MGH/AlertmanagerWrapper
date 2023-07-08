@@ -4,9 +4,17 @@ Prometheus Alertmanager Wrapper
 translate alerts from prometheus alertmanager to any language
 and send to recivers phone number
 
-
-
 ## Installation
+
+First: 
+Install Golang
+- $ sudo apt update
+- $ sudo apt install golang
+- $ go version
+Second:
+- $ go build
+Third:
+Binary file created.
 
 //////// alertmanager config to send alerts to /SendAlert of wrapper
 
