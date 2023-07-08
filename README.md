@@ -11,10 +11,7 @@ Install Golang
 - $ sudo apt update
 - $ sudo apt install golang
 - $ go version
-Second:
-- $ go build
-Third:
-Binary file created.
+- $ go build  #Binary file created.
 
 //////// alertmanager config to send alerts to /SendAlert of wrapper
 
