@@ -1,0 +1,17 @@
+[Unit]
+
+Description=My example go application
+
+[Service]
+
+Type=simple
+
+Restart=always
+
+RestartSec=5s
+
+ExecStart=/root/AlertmanagerWrapper/binery-create ## location file Binary file created.
+WorkingDirectory=/root/AlertmanagerWrapper/ ## location Directory Binary file created.
+[Install]
+
+WantedBy=multi-user.target
