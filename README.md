@@ -12,6 +12,9 @@ Install Golang
 - $ sudo apt install golang
 - $ go version
 - $ go build  #Binary file created.
+ seconds:
+- $ mv paw.service /lib/systemd/system/
+- $ nano paw.service # add location binery file createded
 
 //////// alertmanager config to send alerts to /SendAlert of wrapper
 
